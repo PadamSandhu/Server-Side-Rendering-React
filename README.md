@@ -1,1 +1,3 @@
-# Server-Side-Rendering-React
+# ReactSSRCasts
+
+Companion repo for a course hosted on Udemy.com
