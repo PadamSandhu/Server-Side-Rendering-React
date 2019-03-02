@@ -4,11 +4,15 @@
 // const Home = require('./client/components/Home').default;
 
 import express from 'express';
+import 'babel-polyfill';
 import React from 'react';
+
 import {
   renderToString
 } from 'react-dom/server';
 import Home from './client/components/Home';
+import store from './store';
+
 const app = express();
 
 app.use(express.static('public'));
