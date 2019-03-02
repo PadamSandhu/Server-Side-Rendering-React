@@ -1,6 +1,7 @@
 const path = require('path');
-
-module.exports = {
+const merge = require('webpack-merge');
+const baseConfig = require('./webpack.base.js');
+const config = {
     // Inform webpack that We're building a bundle
     // for nodeJs, rather than for the browser
     target: 'node',
@@ -17,3 +18,6 @@ module.exports = {
     }
 
 };
+
+module.exports = merge(baseConfig, config);
+// Merge will overwrite all the config setting in config constant.

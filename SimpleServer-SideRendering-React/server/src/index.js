@@ -21,10 +21,10 @@ app.get("/", (req, res) => {
 
       </head>
       <body>
-      <div id="reactAppId">
-        ${content}
-      </div>
-      <script src="bundle.js"> </script>
+        <div id="reactAppId">
+          ${content}
+        </div>
+        <script src="bundle.js"> </script>
       </body>
     </html>
       `;
