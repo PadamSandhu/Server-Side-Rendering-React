@@ -1,7 +1,6 @@
 All diagrams are authored using https://www.draw.io/
 
 ## You can edit diagrams on your own!
-- Go to https://github.com/StephenGrider/ReactSSRCasts/new/master/diagrams
 - Open the folder containing the set of diagrams you want to edit
 - Click on the ‘.xml’ file
 - Click the ‘raw’ button
